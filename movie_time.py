@@ -9,6 +9,6 @@ class Movie:
         self.trailer_youtube_url = trailer
 
     def show_trailer(self):
-        webbrowser.open_new_tab(self.trailer_youtube)
+        webbrowser.open_new_tab(self.trailer_youtube_url)
 
 
